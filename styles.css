@@ -1,0 +1,115 @@
+/* Style de base pour le corps */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+
+
+/* Style pour l'en-tête */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* Style pour le logo */
+.logo img {
+    width: 150px; /* Ajuster la largeur selon vos besoins */
+    height: auto;
+    display: block;
+}
+
+
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Style pour les sections */
+.hero, .features, .testimonials, .contact {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Titres de section */
+.hero h1, .features h2, .testimonials h2, .contact h2 {
+    color: #333;
+}
+
+/* Bouton principal */
+button {
+    background-color: #2ecc71;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Formulaire de contact */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+/* Style pour le pied de page */
+footer {
+    background-color: #555;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Style pour les icônes des réseaux sociaux */
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 24px; /* Taille des icônes */
+    height: auto;
+    vertical-align: middle;
+}
+
